@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Login Form</title>
 </head>
+
 <body>
     <form action="index.html" class="login-form">
         <h1>Login</h1>
@@ -20,7 +21,8 @@
         </div>
         <input type="submit" class="logbtn" value="Login">
         <div class="bottom-text">
-            Dont't have account? <a href="#">Signup</a>
+            <a href="#">Forgot password?</a>. Dont't have account? <a href="#">Signup</a>
+            
         </div>
     </form>
 
@@ -32,4 +34,8 @@
     $(".txtb input").on("blur", function(){if($(this).val() == "")$(this).removeClass("focus")});
     </script>
 </body>
+
+<footer class="footer">
+    <p>&copy;Le Nhut Nam <script> document.write(new Date().getFullYear()); </script></p>
+</footer>
 </html>
